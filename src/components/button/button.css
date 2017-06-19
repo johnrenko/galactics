@@ -1,0 +1,51 @@
+.button {
+    align-items: baseline;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    -webkit-align-items: baseline;
+    background: #F5F6F8;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 3px;
+    border-width: 0;
+    color: #505F79;
+    cursor: default;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-inline-flexbox;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    font-style: normal;
+    font-size: 14px;
+    height: 40px;
+    margin: 0;
+    outline: none;
+    padding: 0 12px;
+    pointer-events: auto;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.1s, 0.15s;
+    -webkit-transition-duration: 0.1s, 0.15s;
+    transition: background 0.1s ease-out, box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38);
+    -webkit-transition: background 0.1s ease-out, box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38);
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.button:hover {
+    background: #ECEDF0; 
+    cursor: pointer;
+    transition: background 0s ease-out, box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38);
+    -webkit-transition: background 0s ease-out, box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38);
+}
+
+.button:active {
+    background: #B6ECEB;
+    color: #00848E;
+    transition-duration: 0s;
+    -webkit-transition-duration: 0s;
+}
