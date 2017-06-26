@@ -13,12 +13,17 @@ class App extends Component {
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <Title color='success'>Welcome to React</Title>
-          <Title danger>Normal i should say</Title>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Button />
+        <br /><br />
+        <br /><br />
+        <br /><br />
+        <Button>Hello</Button>
+        <br /><br />
+        <Button primary/>
+        <br /><br />
+        <Button destructive />
+        <br /><br />
+
       </div>
     );
   }

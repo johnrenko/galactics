@@ -44,8 +44,42 @@
 }
 
 .button:active {
-    background: #B6ECEB;
-    color: #00848E;
+    background: #47C1BF;
+    box-shadow: 0 0 0 0 transparent, inset 0 1px 1px 0 rgba(99,115,129,.1), inset 0 1px 4px 0 rgba(99,115,129,.2);
     transition-duration: 0s;
     -webkit-transition-duration: 0s;
 }
+
+.button.primary {
+    background:#00848E;
+    color: #FFFFFF
+}
+
+.button.primary:hover {
+    background: #47C1BF;
+    color: #FFFFFF
+}
+
+.button.primary:active {
+    background:#47C1BF;
+    color: #FFFFFF;
+    box-shadow: 0 0 0 0 transparent, inset 0 1px 1px 0 rgba(99,115,129,.1), inset 0 1px 4px 0 rgba(99,115,129,.2);
+}
+
+
+.button.destructive {
+    background:#FF5630;
+    color: #FFFFFF
+}
+
+.button.destructive:hover {
+    background:#FF7452;
+}
+
+.button.destructive:active {
+    background:#DE350B;
+}
+
+
+
+
